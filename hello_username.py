@@ -22,3 +22,7 @@ print("Hello, ", name + "!")
 print()
 print("Good:")
 print("Hello, ", name + "!", sep="")
+print()
+
+#Third Way - FString or Format String
+print(f"Hey, {name}")
