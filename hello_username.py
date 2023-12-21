@@ -26,3 +26,8 @@ print()
 
 #Third Way - FString or Format String
 print(f"Hey, {name}")
+
+
+#Best Version
+name = input("What's your name? ").strip().title()
+print(f"Hello, {name}!")
