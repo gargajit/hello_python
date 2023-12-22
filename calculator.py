@@ -52,3 +52,15 @@ y = float(input("Enter second no: "))
 z = x / y
 
 print(f"{z:.2f}")
+
+#---------------------------------------------------------
+#Square of a number
+
+def main():
+    x = int(input("What's the value of x: "))
+    print(f"{x} squared is", square(x))
+
+def square(num):
+    return num*num
+
+main()
