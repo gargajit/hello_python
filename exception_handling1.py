@@ -49,7 +49,8 @@ main()
 # Fourth Way
 
 # Let's refine the same program where the called function doesn't specify on it's own
-# rather would take the prompt from the main itself
+# Rather would take the prompt from the main (the caller) itself what should be the prompt
+# This makes the get_int function more reusable as the caller can have their prompts
 
 def main():
     x = get_int("What's x? ")       # now main has the prompt of What's x
