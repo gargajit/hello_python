@@ -1,4 +1,4 @@
-'''Write a Python program that computes the greatest common divisor/ highest common factor (HCF) of two positive integers.'''
+'''Write a Python program that computes the greatest common divisor (GCD) of two positive integers.'''
 
 print('''
       Using Euclid's Algorithm:
@@ -22,10 +22,15 @@ def find_hcf(n1, n2):
     if n1 > n2:
         dividend = n1
         divisor = n2
-    else:
+    elif n2 > n1:
         dividend = n2
         divisor = n1
-    
+
+    elif n1 == n2:
+        hcf = n1
+        return hcf
+
+        
     while True:
         remainder = dividend % divisor
         if remainder != 0:
