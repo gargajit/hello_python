@@ -1,4 +1,4 @@
-# Number of even elements from l to r
+# Number of even elements from L to R
 
 def main():
   ar = [3,6,2,4,3,1,9,5,7]
