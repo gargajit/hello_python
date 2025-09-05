@@ -11,7 +11,6 @@ def bruteForce_countAGPairs(s):
           count += 1
   return count
 
-
 def optimized_countAGPairs(s):
   N = len(s)
   count = 0
